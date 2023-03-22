@@ -1,11 +1,10 @@
-
 import numpy as np
 import math
 import pandas as pd
 from sklearn.cluster import KMeans
 from utils import plot_stores
 from rp import RoutePlanner
-
+from pulp import *
 
 #Optimal vehicle routing (MILP) combined with a clustering appraoch for local solvability
 #Each vehicle starts at a pickup store and delivers customers with a set demand at set locations 
