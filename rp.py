@@ -9,7 +9,7 @@ class RoutePlanner:
     self.cap = cap
     self.loc = loc
     self.d = d
-np    self.t = t
+    self.t = t
     self.loc_df = pd.DataFrame(data = loc, columns = ['x','y'])
     self.t_df = pd.DataFrame(data = t)
 
